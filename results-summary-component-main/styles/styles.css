@@ -1,0 +1,117 @@
+body{
+    text-align: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+
+p {
+    font-size: 18px;
+}
+
+.background-container{
+    display: inline-block;
+    height: 500px;
+    border-radius: 10%;
+    margin: 130px auto 200px auto;
+    width: 800px;
+    box-shadow: 10px 10px 40px #E8EEFC;
+    
+    
+}
+
+.main-results-container{
+    /* background-color: hsl(241, 81%, 54%); */
+
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 10%;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    position: relative;
+    right: 200px;
+    
+
+}
+
+.summary-container{
+    background-color: white;
+    border-radius: 10%;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    bottom: 500px;
+
+}
+
+.score-cirlce{
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-style: none;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+
+.score-container{
+    padding-top: 1px;
+}
+.score{
+    color: white;
+    font-size: 75px;
+
+    margin-top:30px;
+    margin-bottom: 0px;
+}
+
+.score-out-of{
+    color:grey;
+    margin: 0;
+}
+
+.comparison-heading{
+    color:lightgrey;
+    width: 60%;
+    margin: auto;
+}
+
+.great-heading{
+    margin-top: 40px;
+    color: white;
+}
+
+.summary-heading{
+    text-align: left;
+    padding-left: 20px;
+    color: #7A8295;
+}
+
+.main-skills-score-container{
+    background-color: green;
+    margin: 20px;
+    font-weight: 800;
+}
+
+.skill-container{
+    display: inline-block;
+    margin-right: 150px;
+    width: 50px;
+}
+
+
+.skill-score-container{
+    display: inline;
+
+}
+
+
+
+.continue-button{
+    background-color: #303B59;
+    border-radius: 28px;
+    display: inline-block;
+    margin: 10px 10px 500px;
+    padding: 15px 110px 15px;
+    color: white;
+}
