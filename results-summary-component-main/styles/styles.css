@@ -84,13 +84,14 @@ p {
 .summary-heading{
     text-align: left;
     padding-left: 20px;
-    color: #7A8295;
+    color: black;
 }
 
 .main-skills-score-container{
     background-color: green;
     margin: 20px;
     font-weight: 800;
+    border-radius: 15px;
 }
 
 .skill-container{
@@ -102,16 +103,22 @@ p {
 
 .skill-score-container{
     display: inline;
+    color:rgb(145, 139, 139);
 
 }
 
-
+.skill-icon{
+    position: relative;
+    right: 15px;
+    top: 5px;
+    width: 30px;
+}
 
 .continue-button{
     background-color: #303B59;
     border-radius: 28px;
     display: inline-block;
     margin: 10px 10px 500px;
-    padding: 15px 110px 15px;
+    padding: 20px 110px 20px;
     color: white;
 }
